@@ -14,7 +14,7 @@ val lines = Source.fromFile("simdataonly.cex").getLines.toVector
 
 
 import edu.holycross.shot.cite._
-val hdr = "| Simile number     | Image | Comments on |  Appears on  | Note   |\n| :------------- | :------------- |:------------- |:------------- |:------------- |\n"
+val hdr = "| Simile number ß| Image | Comments on |  Appears on  | Note   |\n| :------------- | :------------- |:------------- |:------------- |:------------- |\n"
 
 val iipbase = "http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/hmt/vaimg/2017a/"
 val baseZoomUrl = "http://www.homermultitext.org/ict2/?urn="
